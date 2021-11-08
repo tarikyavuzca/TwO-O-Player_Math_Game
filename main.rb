@@ -1,8 +1,10 @@
 # main class require the other classes to run the game
-require './game'
-require './players'
-require './questions'
+require "./Game"
+require "./Players"
+require "./Turn"
+require "./Questions"
 
-class Main
 
-end
+  game = Game.new
+
+  game.description

@@ -3,3 +3,6 @@ require './game'
 require './players'
 require './questions'
 
+class Main
+
+end

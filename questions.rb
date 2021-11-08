@@ -12,4 +12,9 @@ class Questions
   end
   # having a method to check correct answer ?
 
+  def check_answer
+    return @number1 + @number2
+  end
+
+
 end
